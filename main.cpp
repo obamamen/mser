@@ -28,7 +28,7 @@ int main()
             std::vector<
                 std::vector<int>
             >
-        > intys = {};
+        > intys = {{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10},{69,69,69},{-100}},{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10},{12,12,12}}};
 
         mser::serializer s(fbuff,mser::format_type::text, true);
         s.write(intys);
