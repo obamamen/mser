@@ -30,7 +30,7 @@ int main()
             >
         > intys = {{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10},{69,69,69},{-100}},{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10},{12,12,12}}};
 
-        mser::serializer s(fbuff,mser::format_type::text, true);
+        mser::serializer s(fbuff,mser::format_type::text, false);
         s.write(intys);
     }
 
